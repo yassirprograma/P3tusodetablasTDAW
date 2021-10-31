@@ -1,0 +1,151 @@
+body{
+      background-color:rgb(255, 255, 255);
+}
+
+body>h1{
+      text-align: center;
+}
+main{
+      padding: 10px;
+}
+
+table>caption{
+      font-size:x-large;
+      background-color:  rgba(180, 217, 228, 0.589);
+}
+
+
+tr,th,td{
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+}
+
+td,th, caption{
+      border-style:solid;
+      border-width: 1px ;
+      border-color: black;
+}
+
+
+th{
+      background-color:  rgba(180, 217, 228, 0.37);
+}
+
+
+
+/*Estilo para los paises*/
+.fila1>.pais,.fila6>.pais,.fila11>.pais,.fila17>.pais{ /*Para MEXICO*/
+      background: linear-gradient(to bottom , rgba(80, 235, 144, 0.74), rgba(248, 81, 123, 0.925)); 
+}
+
+.fila14>.pais{ /*Para MEXICO*/
+      background: linear-gradient(to bottom , rgba(0, 65, 185, 0.74), rgba(218, 9, 61, 0.897)); 
+      color: white;
+      
+}
+/*Termina Estilo para los paises*/
+
+/*Estilo para las canciones de bolero */
+
+.fila1>.genero , .fila1>.album, .fila1>.interprete, .fila1>.reconocimientos{
+       background:linear-gradient(to bottom ,rgba(223, 154, 214, 0.664), rgba(210, 102, 253, 0.685), rgba(223, 154, 214, 0.664), rgba(210, 102, 253, 0.685), rgba(223, 154, 214, 0.664)); 
+}
+
+
+
+.fila1>.titulocancion,.fila1>.autor, .fila1>.anio, .fila1>.enlace, .fila3>.titulocancion,.fila3>.autor,.fila3>.enlace,.fila5>.enlace, .fila5>.titulocancion  {
+      background-color:rgba(223, 154, 214, 0.664);
+}
+
+
+
+.fila2>.titulocancion,.fila2>.autor, .fila2>.enlace, .fila4>.titulocancion,.fila4>.enlace{
+      background-color:rgba(210, 102, 253, 0.623);
+}
+
+.fila2>.anio, .fila4>.autor,.fila4>.anio{ /*para el degradado*/
+      background: linear-gradient(to top ,rgba(223, 154, 214, 0.664), rgba(210, 102, 253, 0.685) ); 
+}
+
+/*Termina estilo para las canciones de bolero */
+
+
+
+/*Estilo para las canciones de genero romántico*/
+.fila6>.genero, .fila6>.interprete{
+      background: linear-gradient(to bottom , rgba(80, 255, 255, 0.432), rgba(117, 255, 191, 0.658),rgba(80, 255, 255, 0.432), rgba(117, 255, 191, 0.658),rgba(80, 255, 255, 0.432)); 
+}
+
+.fila7>.album,.fila7>.anio,.fila7>.reconocimientos,.fila9>.autor{
+      background: linear-gradient(to bottom,  rgba(117, 255, 191, 0.658),rgba(80, 255, 255, 0.432)); 
+}
+
+.fila6>.titulocancion,.fila6>.autor,.fila6>.anio,.fila6>.enlace,.fila6>.reconocimientos, .fila6>.album,.fila8>.titulocancion,.fila8>.autor,.fila8>.enlace, .fila10>.titulocancion,.fila10>.enlace{
+      background-color: rgba(80, 255, 255, 0.432);
+}
+
+.fila7>.titulocancion,.fila7>.autor,.fila7>.enlace, .fila9>.titulocancion,.fila9>.enlace{
+      background-color: rgba(117, 255, 191, 0.603);
+}
+/*Termina estilo para las canciones de genero romantico*/
+
+
+/*Estilo para las canciones de genero rock en español*/
+.fila11>.titulocancion,.fila11>.enlace,.fila13>.titulocancion,.fila13>.anio,.fila13>.autor,.fila13>.enlace{
+      background-color: rgba(119, 178, 255, 0.623);
+}
+
+.fila12>.titulocancion,.fila12>.enlace{
+      background-color: rgba(149, 119, 255, 0.747);
+}
+.fila11>.genero,.fila11>.album,.fila11>.interprete,.fila11>.anio,.fila11>.reconocimientos{
+      background: linear-gradient(to bottom,  rgba(119, 178, 255, 0.623),rgba(149, 119, 255, 0.788),rgba(119, 178, 255, 0.623)); 
+}
+.fila11>.autor{
+      background: linear-gradient(to bottom,  rgba(119, 178, 255, 0.623),rgba(149, 119, 255, 0.788)); 
+}
+
+/*Termina estilo para las canciones de genero romantico*/
+
+/*Estilo para las canciones de genero rock alternativo*/
+.fila14>.album,.fila14>.titulocancion,.fila14>.anio,.fila14>.enlace ,.fila14>.reconocimientos,.fila16>.album,.fila16>.titulocancion,.fila16>.anio,.fila16>.enlace ,.fila16>.reconocimientos{
+      background-color: rgba(55, 77, 199, 0.726);
+}
+
+.fila15>.album,.fila15>.titulocancion,.fila15>.anio,.fila15>.enlace ,.fila15>.reconocimientos{
+      background-color: rgba(245, 46, 112, 0.726);
+}
+
+.fila14>.genero,.fila14>.interprete,.fila14>.autor{
+      background: linear-gradient(to bottom,  rgba(55, 77, 199, 0.726),rgba(245, 46, 112, 0.726),rgba(55, 77, 199, 0.726)); 
+}
+
+/*Termina estilo para las canciones de genero rock alternativo*/
+
+/*Estilo para las canciones de genero cumbia*/
+.fila17>.titulocancion,.fila17>.interprete,.fila17>.autor,.fila17>.anio,.fila17>.enlace,.fila19>.album,.fila19>.titulocancion,.fila19>.interprete,.fila19>.autor,.fila19>.anio,.fila19>.enlace,.fila19>.reconocimientos{
+      background-color: rgba(55, 148, 160, 0.747);
+}
+.fila18>.titulocancion,.fila18>.interprete, .fila18>.anio,.fila18>.enlace,.fila18>.reconocimientos{
+      background-color: rgba(77, 253, 115, 0.801);
+}
+
+.fila17>.genero{
+      background: linear-gradient(to bottom,  rgba(55, 148, 160, 0.747),rgba(77, 253, 115, 0.801),rgba(55, 148, 160, 0.747)); 
+}
+.fila17>.album,.fila17>.reconocimientos{
+      background: linear-gradient(to bottom,  rgba(55, 148, 160, 0.747),rgba(77, 253, 115, 0.801)); 
+}
+
+.fila18>.autor{
+      background: linear-gradient(to top,  rgba(55, 148, 160, 0.747),rgba(77, 253, 115, 0.801)); 
+      /*gradiente de abajo hacia arriba*/
+}
+
+/*Termina estilo para las canciones de genero cumbia*/
+
+
+

@@ -1,0 +1,201 @@
+/* para pintar los bordes
+#cabecera, #logo, #titulo, #redessociales{
+      border-style: solid;
+      border-color: black;
+      border-width: 2px;
+}
+*/
+
+body{
+      background-color: rgba(188, 194, 245, 0.815);
+      margin: 0px;      
+}
+
+
+
+/*Comienza estilo para los elementos de la cabecera*/
+#cabecera{
+      position: relative;
+      margin-right: 0px;
+      padding-right: 0px;
+      width: 100%;  /*todo el ancho para la cabecera*/
+      height: 240px; /*Una altura fija*/
+      background-color: rgb(50, 74, 124);
+      /*
+      display: grid;
+      grid-template-columns:15% 70% 15% ;
+      grid-template-rows: 100%;
+      */
+}
+
+#logo{
+      position: relative;  
+      width:200px;
+      padding-top: 20px;
+      left: 1%;
+}
+#logo>img{
+     width: 200px;
+     height: 200px;  /*200px + 20px= 220px del padding de su contenedor, definen la altura de la cabecera*/
+     border-radius: 100%; /*Para que se vea redondo*/
+}
+
+#titulo{
+      width:60%;
+      position: relative; 
+      left: 220px;
+      top: -220px;
+}
+
+#titulo>img{
+     width: 100%;
+}
+
+#redessociales{
+     width:18%;
+     position: relative;
+     left: 80%;
+     top: -130%;
+}
+
+#logogit{
+      width: 55%;
+      position: relative;  
+}
+
+#logoface{
+      width: 30%;
+      position: relative;
+}
+
+/*Termina estilo para los elementos de la cabecera*/
+
+
+
+
+
+
+
+/*Para pintar los bordes*/
+#contenidoprincipal{
+      
+      /*
+      border-style: solid;
+      border-color: black;
+      border-width: 2px;
+      */
+       /*Para darle forma*/
+}
+
+#contenidoprincipal{
+      padding: 10px;
+      width: 75%;
+      height: 1400px;
+      position: relative;
+      top: 20px;
+      left: 25%;
+      box-sizing: border-box;
+
+}
+
+#iframecontenidoprincipal{
+      width: 97%;
+      height: 90%;
+      border-radius: 20px;
+}
+
+#barralateralizquierda{
+      position: absolute; /*Que dependa de su  padre body*/
+      width: 23%;
+      left: 5px;
+      top: 270px; /*pues la cabecera tiene 240px de altura*/
+
+      border-style: solid;
+      border-color: black;
+      border-width: 1px;
+}
+
+#barralateralizquierda>.encabezadobarra{
+      position: relative;
+      height: 80px;
+      background-color: rgba(50, 73, 124, 0.507);
+      padding: 10px;
+      margin: 0px;
+}
+
+#barralateralizquierda>.encabezadobarra>img{
+      width: 15%;
+      top: 20px;
+      position: absolute;
+}
+
+#barralateralizquierda>.encabezadobarra>h2{
+      position: absolute;
+      width: 70%;
+      left: 22%;
+      color: rgba(34, 51, 145, 0.733);
+      
+}
+
+#barralateralizquierda>.listado{
+      position: relative;
+      width: 95%;     
+}
+
+.listado>ul>li{
+      margin-top: 20px;
+}
+
+.listado>ul>li>a{
+      font-size: 20px;
+      text-decoration: none;
+      color: rgba(34, 51, 145, 0.733);
+}
+
+
+#barralateralderecha{
+      /*La lateral derecha no la ocuparemos*/
+      position: absolute; /*Que dependa de su padre body*/
+      width: 13%;
+      left: 86%;      
+      top: 270px; /*pues la cabecera tiene 240px de altura*/
+}
+
+
+#piedepagina{
+      background-color: rgb(50, 74, 124);
+      position:relative;
+      width: 100%;
+      text-align: center;
+}
+
+#piedepagina>#gitocto{
+      position: relative;
+      width: 15%;
+}
+#piedepagina>h3,#piedepagina>a{
+      position: relative;
+      text-decoration: none;
+      color:black;
+}
+
+#piedepagina>#tecnologias{
+      position: absolute;
+      top: 50%;
+      left: 70%;
+}
+#piedepagina #logocss{
+      width: 24%;
+}
+#piedepagina #logohtml{
+      width: 25%;
+}
+
+
+
+
+
+
+
+
+
